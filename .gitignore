@@ -1,0 +1,41 @@
+.env
+.env.*
+!.env.example
+
+# Secrets and credentials
+auth.json
+*auth*.json
+*token*
+*secret*
+*credential*
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Local/private state
+.DS_Store
+Thumbs.db
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.local/
+.profiles/
+.vault/
+private/
+
+# Dependency/build outputs
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+.pytest_cache/
+
+# Editor and OS noise
+.idea/
+.vscode/
+*.swp
+*.swo
