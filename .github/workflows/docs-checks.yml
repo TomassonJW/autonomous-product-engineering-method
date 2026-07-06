@@ -1,0 +1,26 @@
+name: Docs checks
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Check Markdown links
+        run: python scripts/check_markdown_links.py
+
+      - name: Check French translation status
+        run: python scripts/check_translation_status.py
+
+      - name: Run public-safety scan
+        run: python scripts/scan_public_safety.py
