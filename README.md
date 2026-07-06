@@ -131,3 +131,5 @@ This repository is **v0.1**, an initial public foundation. It is meant to be use
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+MIT was chosen because this repository includes reusable templates, prompts, and operational snippets that people should be able to copy, adapt, and embed in their own workflows. A Creative Commons license can still be considered later if the project becomes primarily essay-style documentation.

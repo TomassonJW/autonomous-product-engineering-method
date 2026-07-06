@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 - Initial Public Foundation
+## 0.1.0 - 2026-07-06 - Initial Public Foundation
 
 - Created the first public documentation structure for the Autonomous Product Engineering Method.
 - Added core method documents, templates, prompts, runbooks, adapters, examples, a sanitized case study, and audits.
