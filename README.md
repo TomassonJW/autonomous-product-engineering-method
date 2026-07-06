@@ -114,6 +114,15 @@ Ordinary language
 - [case-studies/](case-studies/hermes-agency-os/README.md): sanitized lessons from Hermes Agency OS.
 - [audits/](audits/method-self-audit.md): self-critique, risk register, anti-patterns, and alternatives.
 
+## Translations
+
+English is the canonical source. French is maintained as an official translation:
+
+- [French README](translations/fr/README.md)
+- [Translation policy](TRANSLATION_POLICY.md)
+- [French glossary](translations/fr/GLOSSARY.md)
+- [French translation status](translations/fr/TRANSLATION_STATUS.md)
+
 ## Safety Position
 
 The method separates actions into three zones:
