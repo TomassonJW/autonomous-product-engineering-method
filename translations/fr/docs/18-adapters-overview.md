@@ -21,8 +21,8 @@ Un adapter doit définir :
 
 - [Codex](../adapters/codex.md) : travail local de dépôt, patches, tests, hygiène Git, rapports de revue.
 - [Hermes](../adapters/hermes.md) : workers durables, wrappers, checkpoints, reporting.
-- [Generic CLI Agent](../../adapters/generic-cli-agent.md) : agent autonome orienté terminal. Source anglaise non traduite dans cette passe.
-- [Generic Chatbot](../../adapters/generic-chatbot.md) : chatbot sans accès filesystem par défaut. Source anglaise non traduite dans cette passe.
+- [Generic CLI Agent](../adapters/generic-cli-agent.md) : agent autonome orienté terminal.
+- [Generic Chatbot](../adapters/generic-chatbot.md) : chatbot sans accès filesystem par défaut.
 
 ## Limite de l'adapter
 
