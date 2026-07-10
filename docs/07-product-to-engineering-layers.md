@@ -21,13 +21,17 @@ Raw intent
   -> Capability graph
   -> Event model
   -> Artifact model
+  -> Falsification verticals
+  -> Foundation Freeze
   -> Roadmap
-  -> Epics
-  -> Tasks
+  -> Build mission portfolio
+  -> Execution DAG
   -> Worker missions
   -> Code
   -> Tests
-  -> Run reports
+  -> Integration and independent acceptance
+  -> Supervised release and operation
+  -> Run and learning reports
   -> Human feedback
   -> Targeted layer updates
 ```
@@ -63,3 +67,5 @@ Do not rewrite high-level vision for every small comment.
 Do not implement code for every broad ambition.
 
 Map the feedback, identify the affected layers, and produce the smallest coherent update.
+
+The full transition rules, including curation, Foundation Freeze, parallel worker isolation, integration states, and post-delivery learning, are defined in [Autonomous Vision-to-Product Method](20-autonomous-vision-to-product.md).

@@ -1,6 +1,6 @@
 # Method Self-Audit
 
-This audit challenges the v0.1 public foundation of the Autonomous Product Engineering Method.
+This audit challenges the v0.2 public foundation of the Autonomous Product Engineering Method.
 
 ## Where Can This Method Fail?
 
@@ -8,12 +8,15 @@ This audit challenges the v0.1 public foundation of the Autonomous Product Engin
 - It can slow down small work if every task is treated as strategic.
 - It can produce polished documents that are not tested in real projects.
 - It can rely too much on agent self-reporting if gates are not enforced externally.
+- Its end-to-end protocol can become too heavy if every project creates the full artifact catalog.
+- Foundation Freeze can be misused as permanent architecture lock-in.
+- A completeness estimate can create false precision even when dimensions are separated.
 
 ## Where Can It Overpromise?
 
 - "Autonomous" can sound like the system can safely operate without supervision.
 - "Premium" can sound subjective unless evidence is defined.
-- "Product engineering method" can imply completeness beyond v0.1.
+- "Product engineering method" can imply completeness beyond the evidence available in v0.2.
 
 Mitigation: the documentation repeatedly states that this is an initial foundation, not a guarantee or certification.
 
@@ -70,6 +73,16 @@ Mitigation: every artifact should support a decision, build step, review, or han
 
 Mitigation: each prompt includes constraints, safety boundaries, and next step.
 
+## Where Can Vision-To-Product Become Process Theater?
+
+- Teams may create every named artifact without a distinct owner or decision need.
+- Exploration may continue after marginal information value has collapsed.
+- Foundation Freeze may protect outdated assumptions instead of build coherence.
+- Parallel missions may look independent while still competing for shared contracts.
+- A detailed completeness table may hide missing real integration or user evidence.
+
+Mitigation: scale artifacts by owner and lifecycle, apply the saturation test, require falsification verticals before freeze, isolate ownership, and keep evidence states independent.
+
 ## What Is Intentionally Not Solved?
 
 - Product-market fit.
@@ -82,4 +95,4 @@ Mitigation: each prompt includes constraints, safety boundaries, and next step.
 
 ## Current Verdict
 
-The method is coherent enough for public v0.1 use as a documentation and prompt foundation. It still needs field testing, stronger examples, visual diagrams, and real project validation before it should be presented as mature.
+The method is coherent enough for public v0.2 use as a documentation and prompt foundation. The Vision-to-Product extension substantially improves operational continuity, evidence vocabulary, foundation governance, and parallel-worker coordination. It still needs field testing across different product sizes, domains, teams, jurisdictions, and agent tools before it should be presented as mature.

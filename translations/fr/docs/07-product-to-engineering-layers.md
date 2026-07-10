@@ -21,13 +21,17 @@ Intention brute
   -> Graphe de capacités
   -> Modèle d'événements
   -> Modèle d'artefacts
+  -> Verticales de falsification
+  -> Foundation Freeze
   -> Roadmap
-  -> Epics
-  -> Tâches
+  -> Portefeuille de missions de build
+  -> DAG d'exécution
   -> Missions de workers
   -> Code
   -> Tests
-  -> Rapports de run
+  -> Intégration et acceptation indépendantes
+  -> Release et exploitation supervisées
+  -> Rapports de run et d'apprentissage
   -> Feedback humain
   -> Mises à jour ciblées des couches
 ```
@@ -63,3 +67,5 @@ Ne pas réécrire la vision haute pour chaque petit commentaire.
 Ne pas implémenter du code pour chaque ambition large.
 
 Mapper le feedback, identifier les couches affectées et produire la plus petite mise à jour cohérente.
+
+Les règles complètes de transition, incluant curation, Foundation Freeze, isolation des workers parallèles, états d'intégration et apprentissage post-livraison, sont définies dans la [Méthode autonome Vision-to-Product](20-autonomous-vision-to-product.md).

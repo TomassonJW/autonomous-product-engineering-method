@@ -14,6 +14,12 @@
 | Capability mesh becomes over-engineered | Medium | Medium | Require operational purpose for each relation |
 | Challenge gate becomes bureaucratic | Medium | Medium | Scale challenge level to task risk |
 | Human approvals are unclear | High | Medium | Green/orange/red action model |
+| Project profiling becomes covert personal profiling | Critical | Low | Purpose limitation, consent, correction, minimization, and profiling boundary |
+| Functional exploration never saturates | High | Medium | Curation dispositions, saturation test, and value-of-information rule |
+| Shared foundation drifts across parallel agents | Critical | Medium | Versioned Foundation Freeze, isolated ownership, and change proposals |
+| Fixture integration is presented as real | High | High | Explicit evidence vocabulary and independent Integration Gate |
+| Completion percentage hides weak dimensions | High | High | Weighted dimension report with evidence, confidence, and human acceptance |
+| Public product launches without operating obligations | Critical | Medium | Private/internal/public review, release gates, rollback, monitoring, and incident response |
 
 ## Open Risk
 

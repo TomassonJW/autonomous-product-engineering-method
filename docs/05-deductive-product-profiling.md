@@ -4,6 +4,12 @@ Deductive product profiling is the method's first strong filter against shallow 
 
 It turns rough intent into an actionable product profile by inferring likely meaning, detecting ambiguity, and asking only high-value questions.
 
+## Profiling Boundary
+
+This method profiles a product or project and the context needed to design it. It may record a sponsor's declared goals and constraints, an audience's product-relevant needs, and the operating situation. It does not authorize covert personal or psychological profiling.
+
+Collect only information needed for the stated product purpose. Separate facts from signals and hypotheses, name consequential inferences, preserve user correction, and define consent and retention where appropriate. A temporary behavior is not an identity, and an inferred need is not a fact.
+
 ## What The Profiler Must Detect
 
 The profiler must identify:
@@ -75,3 +81,5 @@ The profiler should produce:
 ## Stop Condition
 
 Do not let a build agent proceed if the request has a large ambition gap, unclear user type, unclear external side effects, or unclear safety zone.
+
+For an ambitious product, this stop condition opens the broader [Autonomous Vision-to-Product Method](20-autonomous-vision-to-product.md). Profiling does not need to answer every future question. It must make the next bounded exploration or falsification step safe, explicit, and useful.
