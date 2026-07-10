@@ -34,6 +34,6 @@ Les humains restent responsables des approbations, releases publiques, changemen
 
 Utiliser ce dépôt ne prouve pas qu'un produit est premium, sûr, conforme ou production-ready. Les preuves viennent des tests, audits, revues et usages réels.
 
-## C'est une fondation v0.1
+## C'est une fondation v0.2
 
-Cette version publique est un point de départ. Elle doit être testée sur de vrais projets, simplifiée quand elle est lourde, renforcée quand elle est vague et corrigée quand elle sur-promet.
+Cette version publique inclut maintenant un protocole Vision-to-Product de bout en bout, mais reste une fondation. Elle doit être testée sur de vrais projets, simplifiée quand elle est lourde, renforcée quand elle est vague et corrigée quand elle sur-promet.

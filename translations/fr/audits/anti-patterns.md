@@ -1,5 +1,7 @@
 # Anti-patterns
 
+Cette liste compacte couvre les échecs récurrents de la méthode. Le [catalogue Vision-to-Product](../docs/20-autonomous-vision-to-product.md#24-catalogue-des-anti-patterns) ajoute symptôme, cause, risque, détection et correction pour le profiling, l'exploration, la fondation, le build parallèle, l'intégration, la sécurité et l'exploitation.
+
 ## Coder depuis l'intention brute
 
 Commencer l'implémentation avant profilage, challenge et calibration du scope.
@@ -39,3 +41,15 @@ Générer beaucoup de suggestions transversales redondantes, risquées, coûteus
 ## Théâtre documentaire
 
 Créer des artefacts qui ne guident aucune décision, étape de build, revue ou passation.
+
+## Dérive de fondation
+
+Laisser des missions locales modifier des contrats partagés sans Foundation Change Proposal versionnée.
+
+## Fixture présentée comme réalité
+
+Présenter une intégration mockée ou avec fixture comme preuve de validation des vrais composants, utilisateurs ou systèmes externes.
+
+## Théâtre du pourcentage de complétude
+
+Augmenter un pourcentage global selon les fichiers, tâches, cartes ou tests au lieu de dimensions produit revues indépendamment.

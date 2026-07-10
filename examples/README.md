@@ -9,3 +9,4 @@ Start with:
 - [Example Capability Graph](example-capability-graph.md)
 - [Example Dual UI Model](example-dual-ui-model.md)
 - [Example Worker Mission](example-worker-mission.md)
+- [Example Vision-to-Product Method](example-vision-to-product.md)

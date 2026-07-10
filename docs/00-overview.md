@@ -18,8 +18,10 @@ The method helps an agent or team:
 6. Model capabilities as reusable, connected units.
 7. Define events, artifacts, costs, risks, and permissions.
 8. Create bounded worker missions.
-9. Apply quality, safety, and cost gates.
-10. Integrate feedback without rewriting the whole vision.
+9. Stabilize versioned foundations before parallel build work.
+10. Integrate and verify worker results independently.
+11. Prepare supervised delivery and operation.
+12. Integrate feedback without rewriting the whole vision.
 
 ## What The Method Does Not Do
 
@@ -64,17 +66,20 @@ That means the agent should:
 ```text
 User intent
   -> Product profile
-  -> Ambition scale
-  -> Challenge report
-  -> Product layers
-  -> Capability graph
-  -> Dual UI model
-  -> Architecture and runtime boundaries
-  -> Worker missions
-  -> Quality gates
-  -> Verified report
+  -> Challenge and competing interpretations
+  -> Traceable inference
+  -> Functional exploration
+  -> Product maps and contracts
+  -> Curated foundation
+  -> Falsification verticals
+  -> Foundation Freeze
+  -> Build mission portfolio
+  -> Isolated workers
+  -> Integration and independent acceptance
+  -> Supervised release
+  -> Operational learning
 ```
 
 ## First Use
 
-Start with [product-brief-template.md](../templates/product-brief-template.md), then use [deductive-product-profiler.md](../prompts/system-prompts/deductive-product-profiler.md). Do not start coding until the challenge gate has either passed or produced a bounded, accepted build slice.
+Start with [product-brief-template.md](../templates/product-brief-template.md), then use [deductive-product-profiler.md](../prompts/system-prompts/deductive-product-profiler.md). For an ambitious product, continue with the [Autonomous Vision-to-Product Method](20-autonomous-vision-to-product.md) and its [Control Pack](../templates/vision-to-product-control-pack-template.md). Do not start coding until the challenge gate has either passed or produced a bounded, accepted falsification vertical.

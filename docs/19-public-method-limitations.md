@@ -34,6 +34,6 @@ Humans remain responsible for approvals, public releases, production changes, le
 
 Using this repository does not prove that a product is premium, safe, compliant, or production-ready. Evidence must come from tests, audits, reviews, and real use.
 
-## It Is A v0.1 Foundation
+## It Is A v0.2 Foundation
 
-This public version is a starting point. It should be tested against real projects, simplified where it is heavy, strengthened where it is vague, and corrected where it overpromises.
+This public version now includes an end-to-end Vision-to-Product protocol, but it remains a foundation. It should be tested against real projects, simplified where it is heavy, strengthened where it is vague, and corrected where it overpromises.

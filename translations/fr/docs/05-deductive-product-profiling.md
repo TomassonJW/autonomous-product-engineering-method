@@ -4,6 +4,12 @@ Le profilage produit déductif est le premier filtre fort de la méthode contre 
 
 Il transforme une intention brute en profil produit exploitable en inférant le sens probable, en détectant l'ambiguïté et en posant seulement des questions à forte valeur.
 
+## Frontière du profilage
+
+Cette méthode profile un produit ou un projet et le contexte nécessaire à sa conception. Elle peut enregistrer les objectifs et contraintes déclarés d'un commanditaire, les besoins produit pertinents d'un public et la situation d'exploitation. Elle n'autorise aucun profilage personnel ou psychologique clandestin.
+
+Ne collecter que les informations nécessaires à la finalité produit déclarée. Séparer faits, indices et hypothèses, nommer les inférences conséquentes, préserver la correction utilisateur et définir consentement et rétention lorsqu'ils s'appliquent. Un comportement temporaire n'est pas une identité, et un besoin inféré n'est pas un fait.
+
 ## Ce que le profileur doit détecter
 
 Le profileur doit identifier :
@@ -75,3 +81,5 @@ Le profileur doit produire :
 ## Condition d'arrêt
 
 Ne pas laisser un agent de build avancer si la demande présente un fort écart d'ambition, un type d'utilisateur flou, des effets externes flous ou une zone de sécurité floue.
+
+Pour un produit ambitieux, cette condition ouvre la [Méthode autonome Vision-to-Product](20-autonomous-vision-to-product.md). Le profiling n'a pas besoin de répondre à toutes les questions futures. Il doit rendre la prochaine exploration ou verticale de falsification sûre, explicite et utile.

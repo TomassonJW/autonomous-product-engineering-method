@@ -18,8 +18,10 @@ La méthode aide un agent ou une équipe à :
 6. modéliser les capacités comme unités réutilisables et connectées ;
 7. définir événements, artefacts, coûts, risques et permissions ;
 8. créer des missions de workers bornées ;
-9. appliquer des gates de qualité, de sécurité et de coût ;
-10. intégrer le feedback sans réécrire toute la vision.
+9. stabiliser des fondations versionnées avant le build parallèle ;
+10. intégrer et vérifier indépendamment les résultats des workers ;
+11. préparer une livraison et une exploitation supervisées ;
+12. intégrer le feedback sans réécrire toute la vision.
 
 ## Ce que la méthode ne fait pas
 
@@ -64,17 +66,20 @@ Cela signifie que l'agent doit :
 ```text
 Intention utilisateur
   -> Profil produit
-  -> Échelle d'ambition
-  -> Rapport de challenge
-  -> Couches produit
-  -> Graphe de capacités
-  -> Modèle de double UI
-  -> Architecture et limites runtime
-  -> Missions de workers
-  -> Gates qualité
-  -> Rapport vérifié
+  -> Challenge et interprétations concurrentes
+  -> Inférences traçables
+  -> Exploration fonctionnelle
+  -> Cartes produit et contrats
+  -> Fondation curée
+  -> Verticales de falsification
+  -> Foundation Freeze
+  -> Portefeuille de missions de build
+  -> Workers isolés
+  -> Intégration et acceptation indépendantes
+  -> Release supervisée
+  -> Apprentissage opérationnel
 ```
 
 ## Première utilisation
 
-Commencer avec [product-brief-template.md](../templates/product-brief-template.md), puis utiliser [deductive-product-profiler.md](../prompts/system-prompts/deductive-product-profiler.md). Ne pas commencer à coder tant que le gate de challenge n'a pas réussi ou produit une tranche de build bornée et acceptée.
+Commencer avec [product-brief-template.md](../templates/product-brief-template.md), puis utiliser [deductive-product-profiler.md](../prompts/system-prompts/deductive-product-profiler.md). Pour un produit ambitieux, poursuivre avec la [Méthode autonome Vision-to-Product](20-autonomous-vision-to-product.md) et son [Control Pack](../templates/vision-to-product-control-pack-template.md). Ne pas commencer à coder tant que le gate de challenge n'a pas réussi ou produit une verticale de falsification bornée et acceptée.

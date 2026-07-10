@@ -32,6 +32,7 @@ Statuts autorisés :
 | `docs/17-testing-and-sandboxing.md` | `translations/fr/docs/17-testing-and-sandboxing.md` | translated |  |
 | `docs/18-adapters-overview.md` | `translations/fr/docs/18-adapters-overview.md` | translated |  |
 | `docs/19-public-method-limitations.md` | `translations/fr/docs/19-public-method-limitations.md` | translated |  |
+| `docs/20-autonomous-vision-to-product.md` | `translations/fr/docs/20-autonomous-vision-to-product.md` | translated | Extension canonique Vision-to-Product v0.2. |
 | `templates/product-brief-template.md` | `translations/fr/templates/product-brief-template.md` | translated |  |
 | `templates/product-profiling-template.md` | `translations/fr/templates/product-profiling-template.md` | translated |  |
 | `templates/north-star-template.md` | `translations/fr/templates/north-star-template.md` | translated |  |
@@ -45,6 +46,7 @@ Statuts autorisés :
 | `templates/quality-gates-template.md` | `translations/fr/templates/quality-gates-template.md` | translated |  |
 | `templates/autonomy-run-report-template.md` | `translations/fr/templates/autonomy-run-report-template.md` | translated |  |
 | `templates/feedback-intake-template.md` | `translations/fr/templates/feedback-intake-template.md` | translated |  |
+| `templates/vision-to-product-control-pack-template.md` | `translations/fr/templates/vision-to-product-control-pack-template.md` | translated | Control Pack compact et adaptable. |
 | `prompts/README.md` | `translations/fr/prompts/README.md` | translated |  |
 | `prompts/system-prompts/autonomous-product-architect.md` | `translations/fr/prompts/system-prompts/autonomous-product-architect.md` | translated |  |
 | `prompts/system-prompts/deductive-product-profiler.md` | `translations/fr/prompts/system-prompts/deductive-product-profiler.md` | translated |  |
@@ -52,6 +54,7 @@ Statuts autorisés :
 | `prompts/system-prompts/ux-ui-premium-designer.md` | `translations/fr/prompts/system-prompts/ux-ui-premium-designer.md` | translated |  |
 | `prompts/system-prompts/autonomous-worker-supervisor.md` | `translations/fr/prompts/system-prompts/autonomous-worker-supervisor.md` | translated |  |
 | `prompts/system-prompts/documentation-architect.md` | `translations/fr/prompts/system-prompts/documentation-architect.md` | translated |  |
+| `prompts/system-prompts/vision-to-product-orchestrator.md` | `translations/fr/prompts/system-prompts/vision-to-product-orchestrator.md` | translated | Orchestration de bout en bout. |
 | `prompts/starter-prompts/start-new-product-method.md` | `translations/fr/prompts/starter-prompts/start-new-product-method.md` | translated |  |
 | `prompts/starter-prompts/bootstrap-existing-project.md` | `translations/fr/prompts/starter-prompts/bootstrap-existing-project.md` | translated |  |
 | `prompts/starter-prompts/convert-idea-to-product-layers.md` | `translations/fr/prompts/starter-prompts/convert-idea-to-product-layers.md` | translated |  |
@@ -82,6 +85,7 @@ Statuts autorisés :
 | `examples/example-capability-graph.md` | `translations/fr/examples/example-capability-graph.md` | translated |  |
 | `examples/example-dual-ui-model.md` | `translations/fr/examples/example-dual-ui-model.md` | translated |  |
 | `examples/example-worker-mission.md` | `translations/fr/examples/example-worker-mission.md` | translated |  |
+| `examples/example-vision-to-product.md` | `translations/fr/examples/example-vision-to-product.md` | translated | Exemple canonique synthétique complet. |
 | `case-studies/hermes-agency-os/README.md` | `translations/fr/case-studies/hermes-agency-os/README.md` | translated | Sanitized case study preserved. |
 | `case-studies/hermes-agency-os/lessons-learned.md` | `translations/fr/case-studies/hermes-agency-os/lessons-learned.md` | translated |  |
 | `case-studies/hermes-agency-os/failure-modes.md` | `translations/fr/case-studies/hermes-agency-os/failure-modes.md` | translated |  |

@@ -1,5 +1,7 @@
 # Anti-Patterns
 
+This compact list covers recurring failures across the method. The end-to-end [Vision-to-Product anti-pattern catalog](../docs/20-autonomous-vision-to-product.md#24-anti-pattern-catalog) adds symptom, cause, risk, detection, and correction for profiling, exploration, foundation, parallel build, integration, security, and operation failures.
+
 ## Coding From Raw Intent
 
 Starting implementation before profiling, challenge, and scope calibration.
@@ -39,3 +41,15 @@ Generating many cross-capability suggestions that are redundant, risky, costly, 
 ## Documentation Theater
 
 Creating artifacts that do not guide a decision, build step, review, or handoff.
+
+## Foundation Drift
+
+Allowing local missions to change shared contracts without a versioned Foundation Change Proposal.
+
+## Fixture-As-Reality
+
+Presenting mock or fixture integration as evidence that real components, users, or external systems have been validated.
+
+## Completion Percentage Theater
+
+Increasing a global percentage from files, tasks, cards, or test counts instead of independently reviewed product dimensions.

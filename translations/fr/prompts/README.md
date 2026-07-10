@@ -21,6 +21,8 @@ Chaque prompt de cette bibliothèque doit :
 - [Prompts de démarrage](starter-prompts/start-new-product-method.md) : prompts pour démarrer un produit ou préparer un run.
 - [Prompts de revue](review-prompts/audit-method-quality.md) : prompts de critique, sécurité, coût, UX et transversalité.
 
+Pour le protocole complet, utiliser [Vision-to-Product Orchestrator](system-prompts/vision-to-product-orchestrator.md). Il coordonne profiling, inférences, exploration, Foundation Freeze, missions de build, intégration, acceptation et apprentissage post-livraison.
+
 ## Rappel sécurité
 
 Ne collez jamais de secrets dans un prompt. Utilisez des placeholders et des flux d'authentification sûrs. Toute action qui publie, supprime, dépense de l'argent, envoie des messages, modifie la production ou manipule des secrets est une action rouge et exige une approbation explicite.

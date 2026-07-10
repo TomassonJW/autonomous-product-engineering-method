@@ -1,6 +1,6 @@
 # Auto-audit de la méthode
 
-Cet audit challenge la fondation publique v0.1 de la Méthode d'ingénierie produit autonome.
+Cet audit challenge la fondation publique v0.2 de la Méthode d'ingénierie produit autonome.
 
 ## Où cette méthode peut-elle échouer ?
 
@@ -8,12 +8,15 @@ Cet audit challenge la fondation publique v0.1 de la Méthode d'ingénierie prod
 - Elle peut ralentir les petits travaux si chaque tâche est traitée comme stratégique.
 - Elle peut produire des documents soignés mais non testés sur de vrais projets.
 - Elle peut trop dépendre de l'auto-reporting des agents si les gates ne sont pas appliqués extérieurement.
+- Son protocole de bout en bout peut devenir trop lourd si chaque projet crée tout le catalogue d'artefacts.
+- Foundation Freeze peut être détournée en verrou architectural permanent.
+- Une estimation de complétude peut créer une fausse précision même avec des dimensions séparées.
 
 ## Où peut-elle sur-promettre ?
 
 - "Autonome" peut laisser croire que le système opère en sécurité sans supervision.
 - "Premium" peut sembler subjectif si les preuves ne sont pas définies.
-- "Méthode d'ingénierie produit" peut suggérer une complétude au-delà de la v0.1.
+- "Méthode d'ingénierie produit" peut suggérer une complétude au-delà des preuves disponibles en v0.2.
 
 Mitigation : la documentation répète que c'est une fondation initiale, pas une garantie ou certification.
 
@@ -70,6 +73,16 @@ Mitigation : chaque artefact doit soutenir une décision, étape de build, revue
 
 Mitigation : chaque prompt inclut contraintes, limites de sécurité et prochaine étape.
 
+## Où Vision-to-Product peut-il devenir du théâtre de processus ?
+
+- Les équipes peuvent créer chaque artefact nommé sans owner ni décision distincte.
+- L'exploration peut continuer après l'effondrement de la valeur marginale d'information.
+- Foundation Freeze peut protéger des hypothèses obsolètes au lieu de la cohérence du build.
+- Des missions parallèles peuvent sembler indépendantes tout en concurrençant les mêmes contrats.
+- Un tableau de complétude détaillé peut masquer l'absence d'intégration réelle ou de preuves utilisateur.
+
+Mitigation : adapter les artefacts aux owners et cycles de vie, appliquer le test de saturation, exiger des verticales de falsification avant le gel, isoler l'ownership et garder les états de preuve indépendants.
+
 ## Ce qui n'est volontairement pas résolu
 
 - Product-market fit.
@@ -82,4 +95,4 @@ Mitigation : chaque prompt inclut contraintes, limites de sécurité et prochain
 
 ## Verdict actuel
 
-La méthode est assez cohérente pour un usage public v0.1 comme fondation documentaire et bibliothèque de prompts. Elle a encore besoin de tests terrain, d'exemples plus forts, de diagrammes visuels et de validation sur projets réels avant d'être présentée comme mature.
+La méthode est assez cohérente pour un usage public v0.2 comme fondation documentaire et bibliothèque de prompts. L'extension Vision-to-Product améliore fortement la continuité opérationnelle, le vocabulaire des preuves, la gouvernance de fondation et la coordination des workers parallèles. Elle doit encore être testée sur des tailles de produits, domaines, équipes, juridictions et outils agentiques variés avant d'être présentée comme mature.

@@ -4,7 +4,7 @@ Méthode ouverte pour transformer des visions produit exprimées en langage cour
 
 Cette traduction française est maintenue officiellement. L'anglais reste la source canonique : en cas d'écart, se référer aux fichiers anglais et mettre cette traduction à jour.
 
-Ce dépôt est la fondation publique initiale de la **Méthode d'ingénierie produit autonome**. Elle aide une personne à exprimer une idée produit ambitieuse en langage courant, puis guide des agents IA, coding agents ou workers autonomes à travers le profilage produit, le challenge, l'architecture, la modélisation UX/UI, la cartographie des capacités, les gates de sécurité, la gouvernance des coûts, l'exécution, les tests, le reporting et l'intégration du feedback.
+Ce dépôt est la fondation publique de la **Méthode d'ingénierie produit autonome**. Elle aide une personne à exprimer une idée produit ambitieuse en langage courant, puis guide des agents IA, coding agents, workers autonomes ou équipes humaines à travers le profilage produit, le challenge, l'exploration fonctionnelle, la cartographie produit, la stabilisation de fondation, le développement parallèle, l'intégration, la livraison supervisée, l'exploitation et l'évolution par le feedback.
 
 La méthode est indépendante d'un outil unique. Elle peut être adaptée à Codex, Hermes, des agents CLI, des chatbots, des systèmes multi-agents personnalisés ou des équipes humaines utilisant l'IA comme partenaire d'ingénierie produit.
 
@@ -82,19 +82,20 @@ Il faut éviter les deux extrêmes : beau mais fermé et limité, ou puissant ma
 ```text
 Langage courant
   -> Profilage produit
-  -> Calibration de l'ambition
-  -> Gate de challenge
-  -> North Star et couches produit
-  -> Cartes de domaines et de capacités
-  -> Modèle de double UI
-  -> Architecture et modèle événements/artefacts
-  -> Politiques de coût et de sécurité
-  -> Chartes de mission des workers
-  -> Plan d'implémentation
-  -> Tests et gates qualité
-  -> Rapports de run
-  -> Intégration du feedback
+  -> Clarification et challenge
+  -> Inférences projet traçables
+  -> Exploration fonctionnelle
+  -> Cartes produit et contrats
+  -> Curation et verticales de falsification
+  -> Foundation Freeze versionnée
+  -> Roadmap et portefeuille de missions de build
+  -> Agents de développement isolés
+  -> Intégration et gates indépendantes
+  -> Livraison et exploitation supervisées
+  -> Apprentissage et révision de la fondation
 ```
+
+Le protocole opératoire complet est défini dans la [Méthode autonome Vision-to-Product](docs/20-autonomous-vision-to-product.md).
 
 ## Commencer ici
 
@@ -103,11 +104,12 @@ Langage courant
 3. Utiliser le [template de brief produit](templates/product-brief-template.md).
 4. Lancer le [prompt d'architecte produit autonome](prompts/system-prompts/autonomous-product-architect.md).
 5. Appliquer le [gate de challenge](docs/06-challenge-gate.md) avant de construire.
-6. Utiliser les [gates qualité](docs/14-quality-gates.md) avant de déclarer quoi que ce soit terminé.
+6. Pour un produit ambitieux de bout en bout, utiliser le [Vision-to-Product Control Pack](templates/vision-to-product-control-pack-template.md) et le [Vision-to-Product Orchestrator](prompts/system-prompts/vision-to-product-orchestrator.md).
+7. Utiliser les [gates qualité](docs/14-quality-gates.md) avant de déclarer quoi que ce soit terminé.
 
 ## Carte du dépôt
 
-- [docs/](docs/00-overview.md) : méthode, principes, gates, runtime, risques et limites.
+- [docs/](docs/00-overview.md) : méthode, principes, protocole Vision-to-Product de bout en bout, gates, runtime, risques et limites.
 - [templates/](templates/product-brief-template.md) : artefacts structurés réutilisables.
 - [prompts/](prompts/README.md) : prompts copy-pasteables pour agents et revues.
 - [runbooks/](runbooks/setup-codex.md) : guides opérationnels pour environnements courants.
@@ -134,7 +136,7 @@ Aucun agent ne devrait publier, supprimer, dépenser de l'argent, exposer des se
 
 ## Statut actuel
 
-Ce dépôt est en **v0.1**, fondation publique initiale. Il doit être utilisé, challengé et amélioré. Ce n'est pas un standard final, une certification, un framework ni une garantie d'autonomie sûre.
+Ce dépôt est en **v0.2**, fondation publique enrichie. Il inclut maintenant un protocole opératoire Vision-to-Product complet, mais doit encore être validé sur des produits, équipes et environnements agentiques variés. Ce n'est pas un standard final, une certification, un framework ni une garantie d'autonomie sûre.
 
 ## Licence
 

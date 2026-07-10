@@ -17,6 +17,17 @@ Utiliser le français quand cela améliore la compréhension. Garder l'anglais q
 | North Star | North Star | Garder l'anglais comme terme produit stable. Expliquer comme "cap durable du produit" si nécessaire. |
 | product vision | vision produit | Terme courant. |
 | product-to-engineering layers | couches produit-vers-ingénierie | Utiliser aussi "chaîne de transformation produit-ingénierie" dans un texte plus naturel. |
+| Vision-to-Product | Vision-to-Product | Garder l'anglais pour le nom de la méthode de bout en bout. Expliquer comme transformation gouvernée de la vision au produit. |
+| project profiling | profilage projet | Compréhension structurée du commanditaire, du public et de la situation. Ne désigne pas un profil psychologique clandestin. |
+| project inference | inférence projet | Déduction révisable sur le produit ou son contexte, avec source, contre-preuve et conséquence. |
+| inference registry | registre d'inférences | Garder `INFERENCE_REGISTRY.jsonl` inchangé comme nom d'artefact. |
+| falsification vertical | verticale de falsification | Tranche fonctionnelle minimale conçue pour réfuter une hypothèse risquée à travers de vraies frontières. |
+| Foundation Freeze | Foundation Freeze | Baseline versionnée et acceptée des contrats produit et techniques. Ce n'est pas un verrou permanent. |
+| Foundation Change Proposal | Foundation Change Proposal | Garder l'intitulé anglais pour l'artefact gouvernant un changement de fondation. |
+| Build Mission Portfolio | portefeuille de missions de build | Garder le nom de fichier `BUILD_MISSION_PORTFOLIO.md` inchangé. |
+| ContextPack | ContextPack | Paquet compact de contexte limité à une mission, ses contrats, ses contraintes et ses preuves. |
+| completeness estimate | estimation de complétude | Estimation pondérée par dimensions et preuves, jamais fondée sur le nombre de fichiers ou tâches. |
+| acceptance owner | acceptance owner | Rôle humain ou indépendant responsable de la décision finale d'acceptation. |
 | domain map | carte des domaines | Ne pas traduire les noms de fichiers. |
 | capability map | carte des capacités | Terme stable. |
 | capability | capacité | Dans ce dépôt, une capacité est une fonction produit réutilisable avec entrées, sorties, coûts, risques et permissions. |
