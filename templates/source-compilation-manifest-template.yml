@@ -1,0 +1,80 @@
+schema_version: "1.0"
+project:
+  name: ""
+  context_id: ""
+  product_memory_version: ""
+  ambition_level: "exploration|prototype|internal-tool|sellable-product|platform"
+
+compilation:
+  compiled_at: ""
+  compiler:
+    type: "human|agent|human-agent"
+    identity: ""
+  target_repository: "owner/repository"
+  target_branch: ""
+  repository_visibility: "private|public"
+  method:
+    repository: "TomassonJW/autonomous-product-engineering-method"
+    version: ""
+    commit: ""
+  local_canons: []
+  # Example:
+  # - name: "UI canon"
+  #   identifier: "..."
+  #   version: "..."
+  #   source: "restricted-reference-or-url"
+
+source_memory:
+  system: ""
+  root_identifier: ""
+  required_sources: []
+  sources_read: []
+  sources_not_read: []
+  restricted_sources_referenced: []
+
+outputs:
+  files: []
+  source_map: "provenance/SOURCE-MAP.md"
+  product_changelog: "provenance/PRODUCT-CHANGELOG.md"
+
+semantic_status:
+  facts: []
+  decisions: []
+  hypotheses: []
+  proposals: []
+  unknowns: []
+  blocking_unknowns: []
+  contradictions: []
+
+omissions:
+  excluded_as_noise: []
+  excluded_as_obsolete: []
+  redacted_for_privacy: []
+  deferred: []
+
+gates:
+  ready_to_compile:
+    status: "pass|fail"
+    evidence: []
+  ready_to_develop:
+    status: "pass|fail"
+    evidence: []
+  first_bounded_proof:
+    name: ""
+    stop_condition: ""
+
+baseline:
+  commit: ""
+  tag: ""
+  approved_by: ""
+  approved_at: ""
+
+development_takeover:
+  owner: ""
+  start_command_location: "README.md"
+  requires_memory_workspace_access: false
+  ordinary_session_sources:
+    - "AGENTS.md"
+    - "STATE or equivalent"
+    - "current handoff"
+    - "Git live state"

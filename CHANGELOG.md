@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.3.0 - 2026-08-16 - Product Memory To Engineering Repository
+
+- Added the canonical Product Memory To Engineering Repository transition with separate Ready to Compile and Ready to Develop gates.
+- Defined semantic compilation as a provenance-preserving transformation rather than a raw workspace export.
+- Added a documentation-first engineering repository constitution that becomes the same repository used for implementation.
+- Added a source compilation manifest template covering sources, omissions, redactions, canon pinning, baseline commits, and takeover state.
+- Added an operational prompt for compiling approved product memory into a GitHub repository.
+- Updated the Hermes adapter to start from a development-ready repository and to separate product-compilation Git from operational engineering Git.
+- Made internal product repositories private by default and clarified amendment flow through product-diff pull requests.
+- Updated the overview, README, and official French translations.
+
 ## 0.2.0 - 2026-07-10 - Autonomous Vision-to-Product Method
 
 - Added the end-to-end Autonomous Vision-to-Product Method, from vision maturity and adaptive profiling through Foundation Freeze, parallel development, integration, supervised release, and operational learning.

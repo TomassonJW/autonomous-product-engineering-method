@@ -2,15 +2,16 @@
 
 An open method for turning ordinary-language product visions into safe, premium, autonomous AI-assisted software engineering workflows.
 
-This repository is the public foundation for the **Autonomous Product Engineering Method**. It helps a person express an ambitious product idea in ordinary language, then guides AI agents, coding agents, autonomous workers, or human teams through product profiling, challenge, functional exploration, product cartography, foundation stabilization, parallel development, integration, supervised delivery, operation, and feedback-driven evolution.
+This repository is the public foundation for the **Autonomous Product Engineering Method**. It helps a person express an ambitious product idea in ordinary language, build a durable product memory, challenge and stabilize the product, compile the active definition into a versioned engineering repository, and then hand that repository to AI coding agents, autonomous workers, or human teams.
 
 The method is intentionally tool-agnostic. It can be adapted to Codex, Hermes, CLI agents, chatbots, custom multi-agent systems, or human teams using AI as a product engineering partner.
 
 ## What This Is
 
-This is a documentation and prompt repository. It provides:
+This is a documentation, template, and prompt repository. It provides:
 
 - a product-to-engineering method;
+- product-memory and repository-handoff rules;
 - reusable templates;
 - copy-pasteable prompts;
 - safety and quality gates;
@@ -42,13 +43,36 @@ The method forces the system to translate that language into:
 - risks;
 - product layers;
 - UX implications;
-- architecture implications;
+- domain and data contracts;
 - capability maps;
+- acceptance gates;
+- repository authority;
 - worker missions;
 - tests;
-- quality gates;
 - cost boundaries;
 - safe execution plans.
+
+## Product Memory And Engineering Repository
+
+Complex products benefit from two distinct artifacts:
+
+- **Product memory** maximizes understanding. It may contain research, alternatives, sources, historical reasoning, sensitive references, decisions, hypotheses, and long-term context.
+- **Engineering repository** maximizes explicit, versioned, shared execution. It contains the active product constitution, provenance, authority rules, gates, engineering state, code, tests, and evidence.
+
+The canonical bridge is:
+
+```text
+Ordinary-language exploration
+  -> rich product memory
+  -> Ready to Compile
+  -> semantic compilation
+  -> versioned engineering repository
+  -> Ready to Develop
+  -> development-agent takeover
+  -> operational Git, implementation, delivery, and learning
+```
+
+Read [Product Memory To Engineering Repository](docs/21-product-memory-to-engineering-repository.md) for the complete contract.
 
 ## Premium Means Clarity, Not Decoration
 
@@ -86,14 +110,16 @@ Ordinary language
   -> Product maps and contracts
   -> Curation and falsification verticals
   -> Versioned Foundation Freeze
-  -> Roadmap and build mission portfolio
+  -> Product memory baseline
+  -> Engineering repository compilation
+  -> Ready to Develop gate
   -> Isolated development agents
   -> Integration and independent gates
   -> Supervised delivery and operation
   -> Learning and foundation revision
 ```
 
-The complete operating protocol is defined in [Autonomous Vision-to-Product Method](docs/20-autonomous-vision-to-product.md).
+The complete product operating protocol is defined in [Autonomous Vision-to-Product Method](docs/20-autonomous-vision-to-product.md). The memory-to-repository transition is defined in [Product Memory To Engineering Repository](docs/21-product-memory-to-engineering-repository.md).
 
 ## Start Here
 
@@ -103,15 +129,16 @@ The complete operating protocol is defined in [Autonomous Vision-to-Product Meth
 4. Run the [Autonomous Product Architect prompt](prompts/system-prompts/autonomous-product-architect.md).
 5. Apply the [Challenge Gate](docs/06-challenge-gate.md) before building.
 6. For an ambitious end-to-end product, use the [Vision-to-Product Control Pack](templates/vision-to-product-control-pack-template.md) and [Vision-to-Product Orchestrator](prompts/system-prompts/vision-to-product-orchestrator.md).
-7. Use [Quality Gates](docs/14-quality-gates.md) before calling anything done.
+7. When the product memory is stable, use the [Engineering Repository Constitution Template](templates/engineering-repository-constitution-template.md) and [Compile Product Memory prompt](prompts/starter-prompts/compile-product-memory-to-repository.md).
+8. Apply [Quality Gates](docs/14-quality-gates.md) before calling anything done.
 
 ## Repository Map
 
-- [docs/](docs/00-overview.md): the method, principles, end-to-end Vision-to-Product protocol, gates, runtime model, risks, and limitations.
-- [templates/](templates/product-brief-template.md): reusable structured artifacts.
-- [prompts/](prompts/README.md): copy-pasteable prompts for agents and review flows.
+- [docs/](docs/00-overview.md): the method, principles, Vision-to-Product protocol, product-memory bridge, gates, runtime model, risks, and limitations.
+- [templates/](templates/product-brief-template.md): reusable product, repository, manifest, and worker artifacts.
+- [prompts/](prompts/README.md): copy-pasteable prompts for discovery, compilation, agents, and reviews.
 - [runbooks/](runbooks/setup-codex.md): operational guides for common environments.
-- [adapters/](adapters/codex.md): tool-specific adaptation notes.
+- [adapters/](adapters/codex.md): tool-specific adaptation notes, including [Hermes](adapters/hermes.md).
 - [examples/](examples/README.md): public-safe examples.
 - [case-studies/](case-studies/hermes-agency-os/README.md): sanitized lessons from Hermes Agency OS.
 - [audits/](audits/method-self-audit.md): self-critique, risk register, anti-patterns, and alternatives.
@@ -135,9 +162,13 @@ The method separates actions into three zones:
 
 No agent should publish, delete, spend money, expose services, send messages, change production, or handle secrets without explicit authorization and verifiable safeguards.
 
+Internal product repositories are private by default. Public release requires explicit approval and a redaction review.
+
 ## Current Status
 
-This repository is **v0.2**, an expanded public foundation. It now includes a complete Vision-to-Product operating protocol, but still requires field validation across diverse products, teams, and agent environments. It is not a final standard, certification, framework, or guarantee of safe autonomy.
+This repository is **v0.3**, an expanded public foundation. It adds the Product Memory To Engineering Repository contract, a documentation-first repository constitution, a compilation manifest, an operational compilation prompt, and an updated Hermes takeover model.
+
+The method still requires field validation across diverse products, teams, memory systems, and agent environments. It is not a final standard, certification, framework, or guarantee of safe autonomy.
 
 ## License
 
